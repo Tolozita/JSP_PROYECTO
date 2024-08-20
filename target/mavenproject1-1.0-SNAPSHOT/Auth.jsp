@@ -5,6 +5,10 @@
   Time: 11:04 a. m.
   To change this template use File | Settings | File Templates.
 --%>
+
+
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +42,7 @@
 
         <div class="boton">
             <button type="submit" class="btn">
-                <a href="Home.html" class="btn-link">Iniciar Sesión</a>
+                <a href="Home.jsp" class="btn-link">Iniciar Sesión</a>
             </button>
         </div>
 

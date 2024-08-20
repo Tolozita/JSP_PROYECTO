@@ -5,13 +5,6 @@
   Time: 11:04 a. m.
   To change this template use File | Settings | File Templates.
 --%>
-<%
-
-  if(session.getAttribute("name")==null){
-    response.sendRedirect("Register.jsp");
-  }
-
-%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
@@ -52,7 +45,7 @@
     <button type="submit" id="botoncito" class="btn" >Registrarse</button>
 
     <div class="register-link">
-      <p>Ya tengo una cuenta <a href="./Auth.jsp">Inicar Sesion</a></p>
+      <p>Ya tengo una cuenta <a href="Auth.jsp">Inicar Sesion</a></p>
     </div>
 
 
